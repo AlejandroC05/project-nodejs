@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include ('partials/head') %>
+    <title><%= title %></title>
+</head>
+<body>
+    <%- include ('partials/navigation') %>
+    
+    <header class="sectionOne container vh-100 d-flex justify-content-center align-items-center">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="/img/icon.png" alt="logo" class="img-logo img-fluid">
+        <h1 class="display-1 my-4 text-uppercase fw-bold">Alejandro <span class="text-primary">Cáceres</span></h1>
+        <div class="w-50 text-center">
+            <p>I am Yeiner Alejandro Cáceres Gutiérrez, a talented software developer with potential in frontend and backend development.</p>
+        </div>
+        <a href="/about" class="btn btn-primary w-25 rounded-4">About Me</a>
+        </div>
+    </header>
+
+    <h1 class="title-projects text-center">Projects</h1>
+    <div class="container mb-md-5 pt-3">
+        <div class="row row-cols-3">
+
+          <div class="col-md-4 col-sm-4 d-flex justify-content-end d-grid gap-2 col-6 mx-auto col-10">
+            <div class="card rounded-4">
+              <div class="ms-4 me-4 mt-3"><img src="/img/calculator.jpg" class="card-img-top rounded-4 projects-img" alt="Calculator"></div>
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center">Calculator</h5>
+                <div class="text-center buttons">
+                  <a href="https://github.com/AlejandroC05/Calculadora.git" target="_blank" class="btn btn-light githubbutton" style="width: 120px; border-color: #a7a7a7;">GitHub</a>
+                  <a href="https://alejandroc05.github.io/Calculadora/" target="_blank" class="btn btn-light githubbutton" style="width: 120px; border-color: #a7a7a7;">Live Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4 col-sm-4 d-flex justify-content-center d-grid gap-2 col-4 mx-auto col-10">
+            <div class="card rounded-4">
+              <div class="ms-4 me-4 mt-3"><img src="/img/apicountries.png" class="card-img-top rounded-4 projects-img" alt="API-Countries"></div>
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center">API Countries</h5>
+                <div class="text-center buttons">
+                  <a href="https://github.com/AlejandroC05/API-Countries.git" target="_blank" class="btn btn-light githubbutton" style="width: 120px; border-color: #a7a7a7;">GitHub</a>
+                  <a href="https://alejandroc05.github.io/API-Countries/" target="_blank" class="btn btn-light githubbutton" style="width: 120px; border-color: #a7a7a7;">Live Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4 col-sm-4 d-flex justify-content-start d-grid gap-2 col-4 mx-auto col-10">
+            <div class="card rounded-4">
+              <div class="ms-4 me-4 mt-3"><img src="img/chronometer.jpg" class="card-img-top rounded-4 projects-img" alt="Chronometer"></div>
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center">Chronometer</h5>
+                <div class="text-center buttons">
+                  <a href="#" class="btn btn-light githubbutton" style="width: 120px; border-color: #a7a7a7;">GitHub</a>
+                  <a href="#" class="btn btn-light githubbutton" style="width: 120px; border-color: #a7a7a7;">Live Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+
+    <%- include ('partials/footer') %>
+</body>
+</html>
